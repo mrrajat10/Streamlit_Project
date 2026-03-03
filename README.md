@@ -1,2 +1,35 @@
-# Streamlit_Project
-📊 Streamlit Data Visualization App An interactive web app built using Streamlit that allows users to upload a CSV file and generate histograms for selected numerical columns. It previews data, identifies numeric fields, and renders visualizations using Pandas, NumPy, Matplotlib, and Seaborn directly in the browser.
+📊 Streamlit Data Visualization App
+
+This project is an interactive web application developed using Streamlit that enables users to upload CSV files and generate histogram visualizations for selected numerical columns.
+
+The application allows users to preview the uploaded dataset, automatically detects numeric features, and dynamically renders histograms using Pandas, NumPy, Matplotlib, and Seaborn. It provides a simple and user-friendly interface for quick exploratory data analysis directly in the browser.
+
+🚀 Key Features
+
+Upload CSV datasets through the UI
+
+Display dataset preview
+
+Select numerical columns for visualization
+
+Generate histogram plots dynamically
+
+Interactive and responsive web interface
+
+🛠 Tech Stack
+
+Python
+
+Pandas
+
+NumPy
+
+Matplotlib
+
+Seaborn
+
+Streamlit
+
+▶️ Run the Application
+pip install -r requirements.txt
+streamlit run app.py
